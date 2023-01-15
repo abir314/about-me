@@ -1,0 +1,60 @@
+.innercard1 {
+    width: 200px; 
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    margin: 20px;
+
+    
+}
+
+.whole {
+    background-color: lightblue;
+}
+.page {
+   
+    background-color: lightgray;
+    width: 100vw;
+    height: 40vw;
+display: grid;
+   grid-template-areas: 
+   'sa'
+   'as'
+    
+
+   ;
+}
+
+.card {
+    display: grid;
+    grid-template-areas: 'asdf asd';
+}
+
+.innercard {
+    grid-area: asdf;
+}
+.card {
+    grid-area: sa;
+}
+.card1 {
+    grid-area: as;
+}
+.myImage {
+    grid-area: asd;
+}
+
+.welcome {
+    text-align: center;
+    margin: 20px;
+    animation: blink 3s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      color: blue;
+    }
+  }
